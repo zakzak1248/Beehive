@@ -1,0 +1,77 @@
+.Events {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.Events-AddBtn {
+  background-color: #ff9442;
+  border: 1px solid #ff9442;
+  box-shadow: 3px 3px 5px gray;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Events-EditEvents {
+  background-color: #ff9442;
+  border: 1px solid black;
+  color: #ffffff;
+  width: fit-content;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Events-DeleteEvents {
+  background-color: #ffffff;
+  border: 2px solid lightgray;
+  color: #ff9442;
+  box-shadow: 3px 3px 5px gray;
+  width: fit-content;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px 5px 10px 10px;
+}
+
+.Events-EventListBox {
+  display: flex;
+  justify-content: center;
+}
+
+.Events-EventList {
+  border: 1px solid #ff9442;
+  background-color: #f7f2eb;
+  border-radius: 5px;
+  width: 900px;
+}
+
+.Events-EventsListLabels {
+  padding-left: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Events-EventsInfo {
+  display: flex;
+  flex-grow: 1;
+  width: 650px;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.Event-EditEventForm {
+  border: 1px solid #ff9442;
+  background-color: #f7f2eb;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.Event-EditEventFormBox {
+  display: flex;
+  justify-content: center;
+}

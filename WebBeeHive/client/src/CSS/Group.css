@@ -1,0 +1,83 @@
+.Group {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.Group-AddGroup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Group-AddBtn {
+  background-color: #ff9442;
+  border: 1px solid #ff9442;
+  box-shadow: 3px 3px 5px gray;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Group-EditGroup {
+  background-color: #ff9442;
+  border: 1px solid black;
+  color: #ffffff;
+  width: fit-content;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Group-DeleteGroup {
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  color: #ff9442;
+  box-shadow: 3px 3px 5px gray;
+  width: fit-content;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px 5px 10px 10px;
+}
+
+.Group-GroupListBox {
+  display: flex;
+  justify-content: center;
+}
+
+.Group-GroupList {
+  border: 1px solid #ff9442;
+  background-color: #f7f2eb;
+  border-radius: 5px;
+  width: 900px;
+}
+
+.Group-GroupListLabels {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Group-GroupInfo {
+  display: flex;
+  flex-grow: 1;
+  width: 615px;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.Group-EditGroupForm {
+  border: 1px solid #ff9442;
+  background-color: #f7f2eb;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.Group-EditGroupFormBox {
+  display: flex;
+  justify-content: center;
+}

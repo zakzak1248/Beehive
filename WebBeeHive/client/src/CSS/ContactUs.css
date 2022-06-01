@@ -1,0 +1,44 @@
+.ContactUs,
+.ContactUs-Top,
+.ContactUs-Info,
+.ContactUs-Body {
+  display: flex;
+}
+
+.ContactUs {
+  flex-grow: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ContactUs-TitleAndLogo {
+  align-self: flex-start;
+}
+
+.ContactUs-Top {
+  align-items: center;
+  justify-content: left;
+  width: 100vw;
+}
+
+.ContactUs-Info {
+  padding: 0px 80px 0px 80px;
+  text-align: left;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  border: solid 2px lightgray;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px gray;
+  height: 300px;
+  width: 400px;
+  color: #ff9442;
+}
+
+.ContactUs-Body {
+  flex-grow: 1;
+  padding-top: 10vh;
+}

@@ -1,0 +1,16 @@
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.Logo-Img {
+  height: 4vh;
+}
+
+.Logo-Font {
+  font-size: 2.5vh;
+  padding: 0px 0px 0px 8px;
+  color: #ff9442;
+}
